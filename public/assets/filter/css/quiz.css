@@ -1,0 +1,165 @@
+.quiz-wrapper {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+}
+.quiz-block {
+    margin-top: 10%;
+}
+.quiz-header {
+    background-color: #fff;
+    border: 1px solid #cdcdcd;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quiz-header .icons {
+    display: flex;
+}
+.quiz-header .icons span {
+    width: 10px;
+    height: 10px;
+    margin-right: 7px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.quiz-header .icons .red {
+    background-color: #DA5906;
+}
+.quiz-header .icons .orange {
+    background-color: #EF9E0E;
+}
+.quiz-header .icons .green {
+    background-color: #2ECC75;
+}
+.quiz-close {
+    cursor: pointer;
+    font-size: 17px;
+}
+.quiz-body {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 600px;
+}
+.quiz-main-title {
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.quiz-main-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10%;
+    width: 15%;
+    border-bottom: 3px solid #DA5906;
+}
+.quiz-main-title h3 {
+    font-size: calc(0.5vw + 16px);
+    color: #fff;
+}
+.quiz-main-title.quizing {
+    display: flex;
+}
+.quiz-main-title.finish {
+    display: none;
+}
+.quiz-counter {
+    display: flex;
+    margin-bottom: 20px;
+}
+.quiz-counter p {
+    padding: 5px 20px;
+    color: #fff;
+    background-color: #A1D7A6;
+    border: 1px solid #00D8D9;
+}
+.question-group {
+    padding-left: 20px;
+}
+.quiz-question {
+    color: #fff;
+    font-size: calc(0.3vw + 14px);
+    margin-bottom: 10px;
+}
+.quiz-options .form-check {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.form-check input, .form-check label {
+    cursor: pointer;
+    font-size: calc(0.2vw + 12px);
+}
+.quiz-buttons {
+    margin-top: 30px;
+}
+.quiz-buttons button {
+    display: none;
+    color: #fff;
+    border: 1px solid #f8f8f8;
+    padding: 5px 15px;
+}
+.quiz-buttons button.active {
+    display: inline;
+}
+.quiz-buttons button:hover {
+    color: #fff;
+}
+.btn-next {
+    background-color: #00D5E4;
+}
+.btn-finish {
+    background-color: #FF5E68;
+}
+.btn-send {
+    margin: 0 auto;
+    background-color: #FF5E68;
+}
+.quiz-slider {
+    overflow-x: hidden;
+}
+.quiz-slider form {
+    position: relative;
+    display: flex;
+}
+.quiz-slider .inputs-group {
+    display: none;
+}
+.quiz-slider .inputs-group input[type=text] {
+    border: 1px solid #fff;
+    background-color: transparent;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    font-size: 17px;
+    color: #fff;
+}
+.quiz-sum-input {
+    display: block;
+    border: 1px solid #fff;
+    background-color: transparent;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    font-size: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#fff;}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}

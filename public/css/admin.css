@@ -1,0 +1,39 @@
+.admin-menu {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.admin-menu li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #cdcdcd;
+}
+
+.admin-menu li a {
+  color: #000;
+}
+
+.table-image {
+  width: 60px;
+}
+
+.image_edit img {
+  width: 200px;
+  height: auto;
+}
+
+.c-label {
+  display: block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+#img_change {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+
