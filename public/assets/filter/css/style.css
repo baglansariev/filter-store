@@ -6823,7 +6823,25 @@ h6 {
 }
 
 /* Baglan changes START */
-
+.custom-alert {
+  padding: 20px;
+  position: fixed;
+  right: -100%;
+  top: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  z-index: 9999;
+}
+.custom-alert p {
+  color: #fff;
+}
+.custom-alert.danger {
+  background-color: #EA4335;
+}
+.custom-alert.success {
+  background-color: #2D9047;
+}
 .banner-list {
   list-style-type: disc;
   font-weight: bold;
@@ -7063,7 +7081,7 @@ h6 {
   top: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 999;
+  z-index: 9998;
   background-color: rgba(255, 255, 255, 0.8);
   display: none;
   justify-content: center;

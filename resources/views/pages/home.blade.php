@@ -151,7 +151,7 @@
                             <input type="text" class="form-control discount-input" placeholder="Ваш телефон"
                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <button class="input-group-text btn_2" id="basic-addon2">Купить</button>
+                                <button class="input-group-text btn_2 discount-btn" type="button" id="basic-addon2">Купить</button>
                             </div>
                         </div>
                     </div>
@@ -386,7 +386,7 @@
                     <h2 class="contact-title">Напишите нам</h2>
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
+                    <form class="form-contact contact_form" action="{{ route('contact.send') }}" method="post" id="contactForm"
                           novalidate="novalidate">
                         <div class="row">
                             <div class="col-12">
@@ -417,7 +417,7 @@
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <a href="#" class="btn_3 button-contactForm">Отправить</a>
+                            <button class="btn_3 button-contactForm">Отправить</button>
                         </div>
                     </form>
                 </div>

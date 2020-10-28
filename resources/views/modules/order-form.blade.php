@@ -9,7 +9,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="" class="order-form">
+                <form action="{{ route('order.send') }}" class="order-form" id="orderForm">
                     <div class="form-group">
                         <label for="inputClientName">Ваше имя</label>
                         <input type="text" class="form-control" id="inputClientName" name="client_name" placeholder="Имя" required>
@@ -30,13 +30,12 @@
                         <label for="inputProductQuantity">Количество</label>
                         <input type="number" class="form-control product-quantity" id="inputProductQuantity" name="product_quantity" placeholder="Количество" required>
                     </div>
-                    <div class="form-group text-right">
-                        <button type="submit" class="btn btn-primary">Заказать</button>
-                    </div>
                 </form>
             </div>
             <div class="modal-footer">
-
+                <div class="form-group text-right">
+                    <button type="button" class="btn btn-primary order-send-btn">Заказать</button>
+                </div>
             </div>
         </div>
     </div>

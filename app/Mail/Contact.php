@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class Order extends Mailable
+class Contact extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -29,8 +29,8 @@ class Order extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.order')
+        return $this->view('mail.contact')
             ->with($this->data)
-            ->subject('Клиент заказал фильтр с сайта');
+            ->subject('Сообщение от клиента с сайта');
     }
 }

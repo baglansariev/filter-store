@@ -49,6 +49,7 @@
         @component('modules.feedback-form')@endcomponent
         @component('modules.quiz')@endcomponent
         @component('modules.preloader')@endcomponent
+        @component('modules.alert')@endcomponent
         <button class="feedback-btn" data-toggle="modal" data-target="#feedbackModal">
             <i class="fas fa-phone"></i>
         </button>
@@ -79,6 +80,7 @@
         <script src="{{ asset('assets/filter/js/mail-script.js') }}"></script>
         <!-- custom js -->
         <script src="{{ asset('assets/filter/js/maskedinput.js') }}"></script>
+        <script src="{{ asset('js/alert.js') }}"></script>
         <script src="{{ asset('assets/filter/js/quiz.js') }}"></script>
         <script src="{{ asset('assets/filter/js/custom.js') }}"></script>
     </body>

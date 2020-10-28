@@ -379,7 +379,10 @@ inputNumber($('.input-number'));
       scrollTop: $(id).offset().top
     }, 1000);
   });
-  
+  let preloaderWrapper = $('.preloader-wrapper');
+  let orderForm = $('#orderForm');
+  let errorSendMsg = 'Произошла ошибка при отправке. Пожалуйста попробуйте по позже.';
+
   $('.order-btn').click(function () {
     let productName = $('.product_name').text();
     let productPrice = $('.product_price').data('price');
@@ -390,13 +393,56 @@ inputNumber($('.input-number'));
     $('.product-quantity').val(productQuantity);
   });
 
-  let chemicalForm = $('.chemicalForm');
-  let preloaderWrapper = $('.preloader-wrapper');
+  $('.order-send-btn').click(function () {
+    let formValues = [
+      $('#orderForm input[name=client_name]').val(),
+      $('#orderForm input[name=client_phone]').val(),
+      $('#orderForm input[name=product_name]').val(),
+      $('#orderForm input[name=product_price]').val(),
+      $('#orderForm input[name=product_quantity]').val(),
+    ];
+
+    let emptyFields = 0;
+    for (let formValue of formValues) {
+      if (formValue === '') {
+        emptyFields++;
+      }
+    }
+
+    if (emptyFields > 0) {
+      customAlert.show('.custom-alert', 'Заполните все поля', 'danger');
+    }
+    else {
+      preloaderWrapper.css('display', 'flex');
+
+      $.ajax({
+        url: orderForm.attr('action'),
+        type: 'GET',
+        data: orderForm.serialize(),
+        dataType: 'JSON',
+        success: function (response) {
+          if (response.msg) {
+            customAlert.show('.custom-alert', response.msg, 'success');
+            preloaderWrapper.css('display', 'none');
+            $('#orderModal').modal('hide');
+          }
+        },
+        error: function (response) {
+          customAlert.show('.custom-alert', errorSendMsg, 'danger');
+          preloaderWrapper.css('display', 'none');
+          $('#orderModal').modal('hide');
+        }
+      });
+    }
+  });
+
+  let chemicalForm = $('#chemicalForm');
   let exampleModal = $('#exampleModal');
 
   $('.chemical-send').click(function () {
     if ($('#inputChemName').val() === '' || $('#inputChemPhone').val() === '') {
-      alert('Заполните все необходимые поля');
+
+      customAlert.show('.custom-alert', 'Заполните все необходимые поля', 'danger');
     }
     else {
       preloaderWrapper.css('display', 'flex');
@@ -408,21 +454,156 @@ inputNumber($('.input-number'));
         dataType: 'JSON',
         success: function (response) {
           if (response.msg) {
-            alert(response.msg);
+            customAlert.show('.custom-alert', response.msg, 'success');
             preloaderWrapper.css('display', 'none');
-            exampleModal.removeClass('show');
-            exampleModal.css('display', 'none');
+            exampleModal.modal('hide');
           }
         },
         error: function (response) {
-          alert('Произошла ошибка при отправке. Пожалуйста попробуйте по позже.');
+          customAlert.show('.custom-alert', errorSendMsg, 'danger');
           preloaderWrapper.css('display', 'none');
-          exampleModal.removeClass('show');
-          exampleModal.css('display', 'none');
+          exampleModal.modal('hide');
         }
       });
     }
   });
+
+
+  let feedbackForm = $('#feedbackForm');
+  let feedbackModal = $('#feedbackModal');
+
+  $('.feedback-send').click(function () {
+    if ($('#inputFeedbackClientName').val() === '' || $('#inputFeedbackClientPhone').val() === '') {
+      customAlert.show('.custom-alert', 'Заполните все необходимые поля', 'danger');
+    }
+    else {
+      preloaderWrapper.css('display', 'flex');
+
+      $.ajax({
+        url: feedbackForm.attr('action'),
+        type: 'GET',
+        data: feedbackForm.serialize(),
+        dataType: 'JSON',
+        success: function (response) {
+          if (response.msg) {
+            customAlert.show('.custom-alert', response.msg, 'success');
+            preloaderWrapper.css('display', 'none');
+            feedbackModal.modal('hide');
+          }
+        },
+        error: function (response) {
+          customAlert.show('.custom-alert', errorSendMsg, 'danger');
+          preloaderWrapper.css('display', 'none');
+          feedbackModal.modal('hide');
+        }
+      });
+    }
+  });
+
+  let discountInput = $('.discount-input');
+  
+  $('.discount-btn').click(function () {
+    if (discountInput.val() === '') {
+      customAlert.show('.custom-alert', 'Заполните все необходимые поля', 'danger');
+    }
+    else {
+      preloaderWrapper.css('display', 'flex');
+
+      $.ajax({
+        url: '/mail/discount/send',
+        type: 'GET',
+        data: 'discount_number=' + discountInput.val(),
+        dataType: 'JSON',
+        success: function (response) {
+          if (response.msg) {
+            customAlert.show('.custom-alert', response.msg, 'success');
+            preloaderWrapper.css('display', 'none');
+          }
+        },
+        error: function (response) {
+          customAlert.show('.custom-alert', errorSendMsg, 'danger');
+          preloaderWrapper.css('display', 'none');
+        }
+      });
+    }
+  });
+
+  let deliveryInput = $('.delivery-input');
+
+  $('#deliveryBtn').click(function () {
+    if (deliveryInput.val() === '') {
+      customAlert.show('.custom-alert', 'Заполните все необходимые поля', 'danger');
+    }
+    else {
+      preloaderWrapper.css('display', 'flex');
+
+      $.ajax({
+        url: '/mail/specialist/send',
+        type: 'GET',
+        data: 'specialist_number=' + deliveryInput.val(),
+        dataType: 'JSON',
+        success: function (response) {
+          if (response.msg) {
+            customAlert.show('.custom-alert', response.msg, 'success');
+            preloaderWrapper.css('display', 'none');
+          }
+        },
+        error: function (response) {
+          customAlert.show('.custom-alert', errorSendMsg, 'danger');
+          preloaderWrapper.css('display', 'none');
+        }
+      });
+    }
+  });
+
+
+  let contactForm = $('.contact_form');
+
+  $('.button-contactForm').click(function () {
+
+    let formFieldsValues = [
+      $('.contact_form input[name=name]').val(),
+      $('.contact_form input[name=email]').val(),
+      $('.contact_form input[name=subject]').val(),
+      $('.contact_form textarea[name=message]').val(),
+    ];
+
+
+    let emptyFields = 0;
+    for (let fieldValue of formFieldsValues) {
+      if (fieldValue === '') {
+        emptyFields++;
+      }
+    }
+
+    if (emptyFields > 0) {
+      customAlert.show('.custom-alert', 'Заполните все необходимые поля', 'danger');
+    }
+    else {
+      preloaderWrapper.css('display', 'flex');
+
+      $.ajax({
+        url: contactForm.attr('action'),
+        type: 'GET',
+        data: contactForm.serialize(),
+        dataType: 'JSON',
+        success: function (response) {
+          if (response.msg) {
+            customAlert.show('.custom-alert', response.msg, 'success');
+            preloaderWrapper.css('display', 'none');
+          }
+        },
+        error: function (response) {
+          customAlert.show('.custom-alert', errorSendMsg, 'danger');
+          preloaderWrapper.css('display', 'none');
+        }
+      });
+    }
+
+  });
+
+
+
 
 // Baglan changes end
 
