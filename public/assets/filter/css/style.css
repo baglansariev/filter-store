@@ -2528,12 +2528,13 @@ ul {
     padding-right: 0;
   }
 }
-
+/*changes*/
 /* line 66, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_banner.scss */
 .banner_part .single_banner_slider .banner_img {
   position: absolute;
   right: 0;
-  top: 30%;
+  top: 25%;
+    width: 660px;
 }
 
 /* line 72, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_banner.scss */
@@ -7104,6 +7105,29 @@ h6 {
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 991px) {
+    .navbar-brand img {
+        width: 120px;
+        margin: 0;
+    }
+
+    .banner_part .single_banner_slider .banner_text h1 {
+        font-size: 20px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+    .banner_part .single_banner_slider .banner_text .banner_text_iner {
+        display: table-cell;
+        text-align: center;
+    }
+        .col-md-8 {
+            max-width:  100%;
+            flex: 100%;
+        }
+    }
+}
+
 /* Baglan changes END */
 
 /* line 1026, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_elements.scss */
