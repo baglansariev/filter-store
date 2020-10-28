@@ -61,7 +61,7 @@ $(function () {
         });
         send.click(function () {
             if ($('.quiz-name').val() === '' || $('.quiz-phone').val() === '') {
-                alert('Заполните все необходимые поля.');
+                customAlert.show('.custom-alert', 'Заполните все необходимые поля.', 'danger');
             }
             else {
                 $('.preloader-wrapper').css('display', 'flex');
@@ -75,13 +75,12 @@ $(function () {
                         if (response.msg) {
                             quizWrapper.fadeOut();
                             $('.preloader-wrapper').css('display', 'none');
-                            alert(response.msg);
+                            customAlert.show('.custom-alert', response.msg, 'success');
                         }
                     },
                     error: function (response) {
-                        console.log(response);
                         $('.preloader-wrapper').css('display', 'none');
-                        alert('Прозошла ошибка при отправке. Пожалуйста попробуйте по позже.');
+                        customAlert.show('.custom-alert', 'Прозошла ошибка при отправке. Пожалуйста попробуйте по позже.', 'danger');
                     }
                 })
             }

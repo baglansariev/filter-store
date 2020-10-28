@@ -19,7 +19,10 @@ Route::prefix('mail')->group(function () {
     Route::get('/quiz/send', 'FeedbackController@quizSend')->name('quiz.send');
     Route::get('/feedback/send', 'FeedbackController@feedbackFormSend')->name('feedback.send');
     Route::get('/chemical/send', 'FeedbackController@chemicalFormSend')->name('chemical.send');
-    Route::get('/discount/send', 'FeedbackController@chemicalFormSend')->name('discount.send');
+    Route::get('/discount/send', 'FeedbackController@discountFormSend')->name('discount.send');
+    Route::get('/specialist/send', 'FeedbackController@specialistFormSend')->name('specialist.send');
+    Route::get('/contact/send', 'FeedbackController@contactFormSend')->name('contact.send');
+    Route::get('/order/send', 'FeedbackController@orderFormSend')->name('order.send');
 });
 
 Auth::routes();

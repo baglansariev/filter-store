@@ -3,12 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="e9dc03d2-79db-4e06-93b8-4b8a73b4ec82" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/filter.store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/filter.store.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/filter/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/filter/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/filter/images/banner1.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/filter/images/banner1.1.png" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/public/js/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/order.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/specialist.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/modules/alert.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FeedbackController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FeedbackController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/Specialist.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/Specialist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/filter/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/filter/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/filter/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/filter/js/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/filter/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/filter/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/filter/js/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/filter/js/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mail/discount.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mail/discount.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/modules/feedback-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/modules/feedback-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/modules/order-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/modules/order-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,22 +49,42 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/assets/filter/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="249">
               <caret line="2535" column="11" lean-forward="true" selection-start-line="2535" selection-start-column="11" selection-end-line="2535" selection-end-column="11" />
+=======
+            <state relative-caret-position="86">
+              <caret line="6826" column="16" lean-forward="true" selection-start-line="6826" selection-start-column="16" selection-end-line="6826" selection-end-column="16" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/alert.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="199">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
+=======
+            <state relative-caret-position="364">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/filter/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1294">
+              <caret line="444" column="50" selection-start-line="444" selection-start-column="41" selection-end-line="444" selection-end-column="50" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/resources/views/mail/discount.blade.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -52,15 +94,42 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1195">
               <caret line="155" column="30" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
+=======
+        <entry file="file://$PROJECT_DIR$/public/assets/filter/js/quiz.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="63" column="95" selection-start-line="63" selection-start-column="95" selection-end-line="63" selection-end-column="95" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/modules/chemical-form.blade.php">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="81" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="81" />
+            <state relative-caret-position="343">
+              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FeedbackController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="73" column="71" lean-forward="true" selection-start-line="73" selection-start-column="71" selection-end-line="73" selection-end-column="71" />
+              <folding>
+                <element signature="e#40#58#0#PHP" expanded="true" />
+              </folding>
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="388" column="126" selection-start-line="388" selection-start-column="115" selection-end-line="388" selection-end-column="126" />
             </state>
           </provider>
         </entry>
@@ -68,8 +137,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1300">
               <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+=======
+            <state relative-caret-position="494">
+              <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+              <folding>
+                <element signature="e#6#57#0" expanded="true" />
+              </folding>
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
             </state>
           </provider>
         </entry>
@@ -80,15 +157,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Blade" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>question-group</find>
       <find>очитс</find>
+=======
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
       <find>StreamBuffer</find>
       <find>_establishSocketConnection</find>
       <find>verify_peer_name</find>
@@ -114,8 +194,15 @@
       <find>body</find>
       <find>Акция дня на</find>
       <find>bagla</find>
+<<<<<<< HEAD
       <find>margin-top: 20px;</find>
       <find>@media (max-width: 991px)</find>
+=======
+      <find>um...yea, you have to write something to send this form.</find>
+      <find>chemicalFormSend</find>
+      <find>order-btn</find>
+      <find>Заполните</find>
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
       <find>baglan</find>
     </findStrings>
     <replaceStrings>
@@ -129,16 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/seeds/CategorySeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/ProductSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/resources/views/home2.blade.php" />
-        <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/SidebarController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_10_11_110342_create_categories_table.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/product/index.blade.php" />
@@ -158,9 +235,7 @@
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_10_11_110228_create_products_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/product/single.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/modules/order-form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/elements/footer.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/.env" />
@@ -169,16 +244,35 @@
         <option value="$PROJECT_DIR$/app/Mail/Feedback.php" />
         <option value="$PROJECT_DIR$/app/Mail/ChemicalAnilisys.php" />
         <option value="$PROJECT_DIR$/resources/views/mail/feedback.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/modules/feedback-form.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Mail/Discount.php" />
         <option value="$PROJECT_DIR$/resources/views/modules/preloader.blade.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
+=======
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
         <option value="$PROJECT_DIR$/resources/views/modules/quiz.blade.php" />
-        <option value="$PROJECT_DIR$/public/assets/filter/js/quiz.js" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FeedbackController.php" />
         <option value="$PROJECT_DIR$/resources/views/modules/chemical-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/modules/feedback-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/mail/discount.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/mail/specialist.blade.php" />
+        <option value="$PROJECT_DIR$/app/Mail/Specialist.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/mail/contact.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/filter/js/contact.js" />
+        <option value="$PROJECT_DIR$/app/Mail/Contact.php" />
+        <option value="$PROJECT_DIR$/app/Mail/Order.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FeedbackController.php" />
+        <option value="$PROJECT_DIR$/resources/views/modules/order-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/mail/order.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/modules/alert.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/filter/js/quiz.js" />
         <option value="$PROJECT_DIR$/public/assets/filter/js/custom.js" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/public/js/alert.js" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
         <option value="$PROJECT_DIR$/public/assets/filter/css/style.css" />
       </list>
     </option>
@@ -290,11 +384,19 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1937" />
     <option name="height" value="1057" />
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -311,6 +413,20 @@
             <path>
               <item name="filter.store" type="b2602c69:ProjectViewProjectNode" />
               <item name="filter.store" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filter.store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filter.store" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filter.store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filter.store" type="462c0819:PsiDirectoryNode" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -330,32 +446,13 @@
               <item name="filter.store" type="b2602c69:ProjectViewProjectNode" />
               <item name="filter.store" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="filter" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filter.store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filter.store" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filter.store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filter.store" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filter.store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filter.store" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filter.store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filter.store" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
             </path>
           </expand>
           <select />
@@ -428,11 +525,16 @@
       <workItem from="1603288780044" duration="2261000" />
       <workItem from="1603532759512" duration="4978000" />
       <workItem from="1603541999810" duration="4725000" />
+<<<<<<< HEAD
       <workItem from="1603809741594" duration="8339000" />
+=======
+      <workItem from="1603805956166" duration="14042000" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="117795000" />
   </component>
   <component name="ToolWindowManager">
@@ -440,6 +542,15 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16107382" />
+=======
+    <option name="totallyTimeSpent" value="123498000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16027689" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -455,7 +566,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Migrations" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.16005665" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.22383073" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -466,69 +581,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_11_110342_create_categories_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/admin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/product/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="73" column="56" lean-forward="true" selection-end-line="80" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/product/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="12" column="42" lean-forward="true" selection-end-line="59" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/category/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -650,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/modules/order-form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Mail/Quiz.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -671,16 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/mail/feedback.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Mail/ChemicalAnilisys.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -692,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/modules/feedback-form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -733,13 +761,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/Mail/Feedback.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/PendingMail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -747,14 +771,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/filter/js/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="76" column="75" lean-forward="true" selection-start-line="76" selection-start-column="75" selection-end-line="76" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/modules/quiz.blade.php">
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="186" column="83" selection-start-line="186" selection-start-column="83" selection-end-line="186" selection-end-column="83" />
@@ -771,8 +789,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/mail/discount.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/modules/chemical-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/Feedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/public/assets/filter/js/gmaps.min.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/phpstorm64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/modules/feedback-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="91" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="91" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/mail/discount.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="6" lean-forward="true" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/Specialist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/mail/specialist.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="388" column="126" selection-start-line="388" selection-start-column="115" selection-end-line="388" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/mail/feedback.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FeedbackController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -786,20 +868,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Mail/Discount.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="728">
           <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+=======
+        <state relative-caret-position="806">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/filter/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="922">
+          <caret line="53" column="85" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/mail/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="6" lean-forward="true" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/modules/chemical-form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="364">
           <caret line="14" column="81" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="81" />
+=======
+        <state relative-caret-position="338">
+          <caret line="73" column="71" lean-forward="true" selection-start-line="73" selection-start-column="71" selection-end-line="73" selection-end-column="71" />
+          <folding>
+            <element signature="e#40#58#0#PHP" expanded="true" />
+          </folding>
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1300">
           <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
         </state>
@@ -823,13 +954,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1195">
           <caret line="155" column="30" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
+=======
+        <state relative-caret-position="494">
+          <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+          <folding>
+            <element signature="e#6#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/modules/alert.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/modules/order-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/mail/order.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/filter/js/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="63" column="95" selection-start-line="63" selection-start-column="95" selection-end-line="63" selection-end-column="95" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/filter/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="249">
           <caret line="2535" column="11" lean-forward="true" selection-start-line="2535" selection-start-column="11" selection-end-line="2535" selection-end-column="11" />
+=======
+        <state relative-caret-position="1294">
+          <caret line="444" column="50" selection-start-line="444" selection-start-column="41" selection-end-line="444" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/filter/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="6826" column="16" lean-forward="true" selection-start-line="6826" selection-start-column="16" selection-end-line="6826" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/alert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+>>>>>>> acca6107aab4168ab6cb2252743cb175edc9d8cc
         </state>
       </provider>
     </entry>

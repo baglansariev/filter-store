@@ -9,7 +9,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="/mail/feedback/send" class="order-form">
+                <form action="/mail/feedback/send" class="order-form" id="feedbackForm">
                     <div class="form-group">
                         <label for="inputFeedbackClientName">Ваше имя</label>
                         <input type="text" class="form-control" id="inputFeedbackClientName" name="client_name" placeholder="Имя" required>
@@ -18,13 +18,12 @@
                         <label for="inputFeedbackClientPhone">Ваш номер телефона</label>
                         <input type="text" class="form-control" id="inputFeedbackClientPhone" name="client_phone" placeholder="Телефон" required>
                     </div>
-                    <div class="form-group text-right">
-                        <button type="submit" class="btn btn-primary">Заказать</button>
-                    </div>
                 </form>
             </div>
             <div class="modal-footer">
-
+                <div class="form-group text-right">
+                    <button type="button" class="btn btn-primary feedback-send">Заказать</button>
+                </div>
             </div>
         </div>
     </div>

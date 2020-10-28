@@ -9,21 +9,24 @@
                 <div class="col-lg-12">
                     <div class="banner_slider owl-carousel">
                         <div class="single_banner_slider">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-8">
+                            <div class="row reverse">
+                                <div class="col-lg-6 col-md-12">
                                     <div class="banner_text">
                                         <div class="banner_text_iner">
-                                            <h1 class="banner_title">УЗНАЙТЕ СТОИМОСТЬ ФИЛЬТРА ДЛЯ ОЧИСТКИ ВОДЫ</h1>
+                                            <h1 class="banner_title">ФИЛЬТРЫ ДЛЯ ОЧИСТКИ ВОДЫ</h1>
+                                            <div class="border_text">
+                                                <p>
+                                                    Монтаж и химический анализ воды <b>БЕСПЛАТНО!</b>
+                                                    <br>
+                                            </div>
                                             <p>
-                                                <b>ОТВЕТЬТЕ НА 5 ПРОСТЫХ ВОПРОСОВ И ПОЛУЧИТЕ СКИДКУ ДО 30%*</b>
-                                                <br>
-                                                Монтаж и химический анализ воды в подарок
+                                                ОТВЕТЬТЕ НА 5 ПРОСТЫХ ВОПРОСОВ И ПОЛУЧИТЕ <b>СКИДКУ ДО 30%*</b>
                                             </p>
-                                            <a href="#" class="banner-btn btn_2"> Ответить на вопросы <br> и получить подарок</a>
+                                            <a href="#" class="banner-btn btn_2"> ХОЧУ СКИДКУ! </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="banner_img d-none d-lg-block">
+                                <div class="banner_img col-lg-6 col-md-12">
                                     <img src="{{ asset('assets/filter/images/banner1.1.png') }}" alt="">
                                 </div>
                             </div>
@@ -114,8 +117,8 @@
                 </div>
             </div>
         </div>
-        <div class="water-img d-flex align-items-center justify-content-center">
-            <img src="{{ asset('assets/filter/images/water_bg.jpg') }}" alt="" class="img-fluid">
+        <div class="water-img align-items-center justify-content-center">
+            <img src="assets/filter/images/water_bg.jpg" alt="" class="img-fluid">
         </div>
         <div class="d-flex justify-content-center mb-5">
             <button type="button" class="btn btn_2" data-toggle="modal" data-target="#exampleModal">Заказать хим.анализ воды</button>
@@ -128,6 +131,9 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 col-md-6">
                     <div class="offer_img">
+                        <div class="action-day">
+                        <img src="{{ asset('assets/filter/images/4.png') }}" alt="">
+                        </div>
                         <img src="{{ asset('assets/filter/images/banner1.png') }}" alt="">
                     </div>
                 </div>
@@ -151,7 +157,7 @@
                             <input type="text" class="form-control discount-input" placeholder="Ваш телефон"
                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <button class="input-group-text btn_2" id="basic-addon2">Купить</button>
+                                <button class="input-group-text btn_2 discount-btn" type="button" id="basic-addon2">Купить</button>
                             </div>
                         </div>
                     </div>
@@ -386,7 +392,7 @@
                     <h2 class="contact-title">Напишите нам</h2>
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
+                    <form class="form-contact contact_form" action="{{ route('contact.send') }}" method="post" id="contactForm"
                           novalidate="novalidate">
                         <div class="row">
                             <div class="col-12">
@@ -417,7 +423,7 @@
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <a href="#" class="btn_3 button-contactForm">Отправить</a>
+                            <button class="btn_3 button-contactForm">Отправить</button>
                         </div>
                     </form>
                 </div>
